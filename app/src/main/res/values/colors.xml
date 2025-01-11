@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="blue">#2274E5</color>
+    <color name="black_20">#59000000</color>
+
+    <color name="black_dim">#2B2929</color>
+    <color name="black_35">#99000000</color>
+    <color name="transparent_white">#e6ffffff</color>
+
+    <color name="grey">#f6f6f6</color>
+    <color name="grey_75">#3b3b3b</color>
+    <color name="gradient_end_color">#2CDB37</color>
+    <color name="gradient_start_color">#24B22E</color>
+</resources>

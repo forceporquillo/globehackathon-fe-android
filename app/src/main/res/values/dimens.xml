@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="indicator_inset">3dp</dimen>
+    <dimen name="indicator_size">10dp</dimen>
+    <dimen name="indicator_size_2">8dp</dimen>
+    <dimen name="indicator_margin">12dp</dimen>
+
+    <dimen name="text_size_h5">28sp</dimen>
+    <dimen name="text_size_h4">24sp</dimen>
+    <dimen name="text_size_h1">22sp</dimen>
+    <dimen name="text_size_h2">20sp</dimen>
+    <dimen name="text_size_h3">18sp</dimen>
+
+    <dimen name="zero_dp">0dp</dimen>
+    <dimen name="ten_dp">10dp</dimen>
+
+    <!-- OnBoarding -->
+    <dimen name="onboarding_actions_height">112dp</dimen>
+    <dimen name="onboarding_margins">48dp</dimen>
+    <dimen name="onboarding_preview_margins">50dp</dimen>
+    <dimen name="onboarding_preview_height">250dp</dimen>
+
+    <dimen name="spacing_smallest">2dp</dimen>
+    <dimen name="spacing_extra_small">3dp</dimen>
+    <dimen name="spacing_small">8dp</dimen>
+    <dimen name="spacing_chat_padding">12dp</dimen>
+    <dimen name="spacing_medium">12dp</dimen>
+    <dimen name="spacing_medium_v2">10dp</dimen>
+    <dimen name="spacing_normal">16dp</dimen>
+    <dimen name="spacing_large">24dp</dimen>
+    <dimen name="spacing_extra_large">32dp</dimen>
+    <dimen name="spacing_extra_largest">48dp</dimen>
+
+    <dimen name="verified_badge_size">14dp</dimen>
+
+    <dimen name="conversation_message_padding">12dp</dimen>
+    <dimen name="conversation_seen_padding">2dp</dimen>
+    <dimen name="conversation_profile_icon">128dp</dimen>
+    <dimen name="conversation_header_margin">64dp</dimen>
+    <dimen name="conversation_message_input">8dp</dimen>
+    <dimen name="conversation_message_input_2">6dp</dimen>
+
+    <dimen name="text_size_normal">16sp</dimen>
+
+    <dimen name="corner_radius_size">18dp</dimen>
+    <dimen name="default_chat_bubble_radius">4dp</dimen>
+
+    <dimen name="pin_code_rounded_radius">20dp</dimen>
+    <dimen name="pin_code_dimen">56dp</dimen>
+    <dimen name="pin_code_dimen_10dp">10dp</dimen>
+    <dimen name="pin_code_padding">4dp</dimen>
+
+    <!-- Profile Settings -->
+    <dimen name="profile_icon_size">90dp</dimen>
+    <dimen name="profile_icon_size_2">120dp</dimen>
+
+    <dimen name="material_button_height">48dp</dimen>
+    <dimen name="circular_image_size">48dp</dimen>
+    <dimen name="smallest_text">12sp</dimen>
+    <dimen name="profile_camera_offset">84dp</dimen>
+
+    <!--Integer Value that number of column in RecyclerView-->
+    <integer name="gallery_columns">3</integer>
+
+    <!-- inter spacing between RecyclerView's Item-->
+    <dimen name="gallery_list_spacing">4dp</dimen>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/date"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/spacing_chat_padding"
+            android:visibility="gone"
+            android:textAlignment="center"
+            tools:text="Thursday, 12:42PM"
+            tools:visibility="visible"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/sender_message_container"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_marginTop="@dimen/spacing_smallest"
+            android:layout_marginBottom="@dimen/spacing_smallest"
+            android:layout_marginEnd="@dimen/spacing_normal"
+            android:id="@+id/sender_message_container"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/spacing_extra_largest"
+            app:cardElevation="0dp"
+            app:cardCornerRadius="@dimen/corner_radius_size"
+            app:cardPreventCornerOverlap="true"
+            app:cardBackgroundColor="#FAFAFA">
+
+            <TextView
+                android:id="@+id/text_message"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/spacing_medium"
+                android:paddingTop="@dimen/spacing_small"
+                android:paddingEnd="@dimen/spacing_small"
+                android:paddingBottom="@dimen/spacing_small"
+                android:letterSpacing="0.0045"
+                android:textColor="@color/black"
+                tools:text="You can call setStartMarginPercentage the same way in your RecyclerView adapter or any activity/fragment where you have access to the view and context. This will apply a margin only to the start side based on the specified percentage of the screen width." />
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:visibility="gone"
+            android:id="@+id/seen_indicator"
+            android:layout_marginEnd="@dimen/spacing_large"
+            android:layout_gravity="end"
+            android:text="Seen"
+            android:gravity="center"
+            android:drawablePadding="2dp"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</layout>

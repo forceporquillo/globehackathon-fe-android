@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/conversationFragment">
+
+<!--    <fragment-->
+<!--        android:id="@+id/FirstFragment"-->
+<!--        android:name="dev.forcecodes.auth.demo.presentation.LoginFragment"-->
+<!--        android:label="Login"-->
+<!--        tools:layout="@layout/fragment_login">-->
+<!--        <action-->
+<!--            android:id="@+id/action_login_to_dashboard"-->
+<!--            app:destination="@id/SecondFragment" />-->
+<!--    </fragment>-->
+<!--    <fragment-->
+<!--        android:id="@+id/SecondFragment"-->
+<!--        android:name="dev.forcecodes.auth.demo.presentation.WelcomeFragment"-->
+<!--        android:label="Dashboard"-->
+<!--        tools:layout="@layout/fragment_welcome"/>-->
+
+
+    <fragment
+        android:id="@+id/conversationFragment"
+        android:name="dev.forcecodes.auth.demo.presentation.conversation.ConversationFragment"
+        android:label="ConversationFragment"
+        tools:layout="@layout/fragment_conversation"/>
+
+</navigation>
